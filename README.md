@@ -1,39 +1,71 @@
 # 🎓 Student Performance Predictor AI
 
-An interactive end-to-end machine learning web application that uses a tuned Random Forest Regressor to predict a student's final academic grade ($G3$) based on demographic, lifestyle, and historical academic features.
+An end-to-end Machine Learning web application that predicts a student's final academic grade (G3) using demographic, academic, and lifestyle factors.
 
-## 📊 Model & Performance Metrics
-* **Algorithm:** Random Forest Regressor (`n_estimators=100`, `max_depth=5`)
-* **Validation Strategy:** 5-Fold Cross-Validation
-* **Primary Metric:** Achieved a strong $R^2$ score of **0.872**, indicating that the selected features explain over 87% of the variance in final student outcomes.
+## 📊 Model Performance
 
-## 🛠️ Features Explored
-* **Prior Grades:** First period ($G1$) and Second period ($G2$) scores (0-20 scale)
-* **Academic Factors:** Past class failures and weekly study hours
-* **Lifestyle Factors:** Total school absences
+- **Algorithm:** Random Forest Regressor
+- **Validation Strategy:** 5-Fold Cross Validation
+- **R² Score:** 0.872
 
----
+## 🔍 Features Used
+
+- First Period Grade (G1)
+- Second Period Grade (G2)
+- Weekly Study Time
+- Number of Past Failures
+- School Absences
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Streamlit
+- Joblib
+
+## 📁 Project Structure
+
+```
+StudentPerformancePredictor_Final/
+│
+├── Dataset/
+├── Model/
+├── app.py
+├── requirements.txt
+└── README.md
+```
 
 ## 🚀 How to Run Locally
 
-Follow these separate step-by-step instructions to clone and deploy the application on your local workstation:
-
 ### 1. Clone the Repository
+
 ```bash
-# Step 1: Pull the latest production codebase from GitHub to your machine
 git clone https://github.com/mukundan1012-creator/StudentPerformancePredictor_Final.git
+```
 
-### 2. Initialize the Environment Path
+### 2. Move into the Project Directory
+
 ```bash
-# Step 2: Move into the root folder where all project scripts reside
 cd StudentPerformancePredictor_Final
+```
 
-### 3. Install Core Dependencies
+### 3. Install Dependencies
+
 ```bash
-# Step 3: Install the exact versions of Scikit-Learn, Streamlit, and Joblib required by the pipeline
 pip install -r requirements.txt
+```
 
-### 4. Launch the Streamlit Web Application
+### 4. Launch the Application
+
 ```bash
-# Step 4: Boot up the local web application server
 streamlit run app.py
+```
+
+## 🎯 Project Goal
+
+The objective of this project is to predict student academic performance using Machine Learning techniques and provide an interactive interface for users to test predictions.
+
+---
+Developed using Python, Scikit-Learn, and Streamlit.
