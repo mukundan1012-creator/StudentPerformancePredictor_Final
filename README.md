@@ -19,18 +19,21 @@ An interactive end-to-end machine learning web application that uses a tuned Ran
 Follow these separate step-by-step instructions to clone and deploy the application on your local workstation:
 
 ### 1. Clone the Repository
-bash
+```bash
 # Step 1: Pull the latest production codebase from GitHub to your machine
 git clone https://github.com/mukundan1012-creator/StudentPerformancePredictor_Final.git
+
 ### 2. Initialize the Environment Path
-bash
+```bash
 # Step 2: Move into the root folder where all project scripts reside
 cd StudentPerformancePredictor_Final
+
 ### 3. Install Core Dependencies
-bash
+```bash
 # Step 3: Install the exact versions of Scikit-Learn, Streamlit, and Joblib required by the pipeline
 pip install -r requirements.txt
+
 ### 4. Launch the Streamlit Web Application
-bash
+```bash
 # Step 4: Boot up the local web application server
 streamlit run app.py
