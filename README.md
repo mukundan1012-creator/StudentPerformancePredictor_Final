@@ -18,7 +18,6 @@ An interactive end-to-end machine learning web application that uses a tuned Ran
 
 Follow these separate step-by-step instructions to clone and deploy the application on your local workstation:
 
-### 1. Clone the Repository
 ```bash
 # Step 1: Pull the latest production codebase from GitHub to your machine
 git clone [https://github.com/mukundan1012-creator/StudentPerformancePredictor_Final.git](https://github.com/mukundan1012-creator/StudentPerformancePredictor_Final.git)
