@@ -13,12 +13,13 @@ An interactive end-to-end machine learning web application that uses a tuned Ran
 * **Lifestyle Factors:** Total school absences
 
 ## 🚀 How to Run Locally
-1. Clone this repository to your machine.
-2. Install the necessary dependencies:
-   ```bash
-   pip install -r requirements.txt
 
-3. Launch the web application:
+1. Clone this repository to your machine:
 ```bash
-   streamlit run app.py
-   
+git clone [https://github.com/mukundan1012-creator/StudentPerformancePredictor_Final.git](https://github.com/mukundan1012-creator/StudentPerformancePredictor_Final.git)
+
+cd StudentPerformancePredictor_Final
+
+pip install -r requirements.txt
+
+streamlit run app.py
