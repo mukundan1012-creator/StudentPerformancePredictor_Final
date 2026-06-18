@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load trained model
-model = joblib.load("student_performance_model.pkl")
+model = joblib.load("Model/student_performance_model.pkl")
 st.sidebar.title("Project Information")
 
 st.sidebar.info("""
