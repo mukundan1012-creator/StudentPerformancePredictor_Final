@@ -3,18 +3,25 @@
 An end-to-end Machine Learning web application that predicts a student's final academic grade (G3) using demographic, academic, and lifestyle factors.
 
 ## 📊 Model Performance
-
-- **Algorithm:** Random Forest Regressor
-- **Validation Strategy:** 5-Fold Cross Validation
-- **R² Score:** 0.872
+| Metric | Value |
+|----------|----------|
+| Algorithm | Random Forest Regressor |
+| Validation Strategy | 5-Fold Cross Validation |
+| R² Score | 0.872 |
 
 ## 🔍 Features Used
+
+## Features Engineering
+
+The following features were selected for prediction:
 
 - First Period Grade (G1)
 - Second Period Grade (G2)
 - Weekly Study Time
 - Number of Past Failures
 - School Absences
+
+These features showed strong correlation with final academic performance and were used as inputs to the Random Forest model.
 
 ## 🛠️ Tech Stack
 
